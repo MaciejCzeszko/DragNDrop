@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left,
+.right {
+  margin: 3em;
+  width: 20em;
+  min-height: 30em;
+  border: 2px dashed black;
+}
+
+.list-item {
+  font-size: 2rem;
+  margin: 1em;
+  text-align: center;
+  border: 1px solid red;
+  height: 2em;
+  cursor: grab;
+}
